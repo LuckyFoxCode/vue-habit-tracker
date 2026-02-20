@@ -1,11 +1,11 @@
 ## Phase A — Vue Foundation (Reactivity Basics)
 
 - [x] Step 1 — Clean project scaffold (Vite + Vue 3 + TS)
-- [ ] Step 2 — Minimal layout (container + header)
-- [ ] Step 3 — Add Habit (ref + v-model)
-- [ ] Step 4 — Render habit list (v-for)
-- [ ] Step 5 — Delete habit
-- [ ] Step 6 — Prevent empty input
+- [x] Step 2 — Minimal layout (container + header)
+- [x] Step 3 — Add Habit (ref + v-model)
+- [x] Step 4 — Render habit list (v-for)
+- [x] Step 5 — Delete habit
+- [x] Step 6 — Prevent empty input
 
 ### What you learn:
 
