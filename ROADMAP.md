@@ -22,9 +22,9 @@ Understand how Vue reactivity actually works.
 
 ## Phase B — Domain Modeling & Clean Types
 
-- [ ] Step 7 — Create `types/habit.ts`
-- [ ] Step 8 — Define Habit entity (id, title, createdAt, completedDates)
-- [ ] Step 9 — Move mock data outside component
+- [x] Step 7 — Create `types/habit.ts`
+- [x] Step 8 — Define Habit entity (id, title, createdAt, completedDates)
+- [x] Step 9 — Move mock data outside component
 - [ ] Step 10 — Extract business logic from template
 
 ### Focus:
