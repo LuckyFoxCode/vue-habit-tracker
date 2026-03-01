@@ -25,7 +25,7 @@ Understand how Vue reactivity actually works.
 - [x] Step 7 — Create `types/habit.ts`
 - [x] Step 8 — Define Habit entity (id, title, createdAt, completedDates)
 - [x] Step 9 — Move mock data outside component
-- [ ] Step 10 — Extract business logic from template
+- [x] Step 10 — Extract business logic from template
 
 ### Focus:
 
