@@ -1,7 +1,8 @@
 <script setup lang="ts">
-import { habits } from '@/mock';
 import type { Habit } from '@/types';
 import { computed, ref } from 'vue';
+
+const emit = defineEmits<{ (e: 'add', habit: Habit): void }>();
 
 const inputValue = ref('');
 
@@ -14,12 +15,12 @@ function handleSubmit() {
 
   const newHabit: Habit = {
     id: crypto.randomUUID(),
-    title: inputValue.value,
+    title: inputValue.value.trim(),
     createdAt: new Date(),
     completedDates: [],
   };
 
-  habits.push(newHabit);
+  emit('add', newHabit);
 
   inputValue.value = '';
 }
@@ -36,6 +37,7 @@ function handleSubmit() {
       v-model.trim="inputValue"
     />
     <button
+      type="submit"
       :disabled="!validInput"
       class="cursor-pointer rounded-lg border px-4 py-3"
     >
